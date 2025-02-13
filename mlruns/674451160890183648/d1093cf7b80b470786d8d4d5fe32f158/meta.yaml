@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/busisiwe/git_repos/Explore-Classification-Project/mlruns/674451160890183648/d1093cf7b80b470786d8d4d5fe32f158/artifacts
+end_time: 1739451318795
+entry_point_name: ''
+experiment_id: '674451160890183648'
+lifecycle_stage: active
+run_id: d1093cf7b80b470786d8d4d5fe32f158
+run_name: SVM (RBF)
+run_uuid: d1093cf7b80b470786d8d4d5fe32f158
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739451264326
+status: 3
+tags: []
+user_id: busisiwe

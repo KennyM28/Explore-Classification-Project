@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/busisiwe/git_repos/Explore-Classification-Project/mlruns/968193937466500812/ddd2ba90b36a46d8b717fb6633e903d6/artifacts
+end_time: 1739325322192
+entry_point_name: ''
+experiment_id: '968193937466500812'
+lifecycle_stage: active
+run_id: ddd2ba90b36a46d8b717fb6633e903d6
+run_name: Logistic Regression
+run_uuid: ddd2ba90b36a46d8b717fb6633e903d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739325322183
+status: 4
+tags: []
+user_id: busisiwe

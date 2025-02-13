@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/busisiwe/git_repos/Explore-Classification-Project/mlruns/707342769481189023/40b5f9b9ee4749bea27a7e8f6cfccd6a/artifacts
+end_time: 1739413633142
+entry_point_name: ''
+experiment_id: '707342769481189023'
+lifecycle_stage: active
+run_id: 40b5f9b9ee4749bea27a7e8f6cfccd6a
+run_name: CrossVal_SVM (RBF)
+run_uuid: 40b5f9b9ee4749bea27a7e8f6cfccd6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739413119230
+status: 3
+tags: []
+user_id: busisiwe
