@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kenny/Documents/ExploreAI/Group_Project/Explore-Classification-Project/mlruns/875894953449778804/b4ed148e8c7349f981c3590b1bc871ec/artifacts
+end_time: 1739634516407
+entry_point_name: ''
+experiment_id: '875894953449778804'
+lifecycle_stage: active
+run_id: b4ed148e8c7349f981c3590b1bc871ec
+run_name: CrossVal_Naive Bayes
+run_uuid: b4ed148e8c7349f981c3590b1bc871ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739634494024
+status: 3
+tags: []
+user_id: kenny

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kenny/Documents/ExploreAI/Group_Project/Explore-Classification-Project/mlruns/961045938799776760/a034159491e644f5af1a37e5a21b7b2d/artifacts
+end_time: 1739633617821
+entry_point_name: ''
+experiment_id: '961045938799776760'
+lifecycle_stage: active
+run_id: a034159491e644f5af1a37e5a21b7b2d
+run_name: SVM (RBF)
+run_uuid: a034159491e644f5af1a37e5a21b7b2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739633554691
+status: 3
+tags: []
+user_id: kenny

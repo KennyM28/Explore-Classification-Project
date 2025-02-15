@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kenny/Documents/ExploreAI/Group_Project/Explore-Classification-Project/mlruns/961045938799776760/5a15da6776d640cd8aaa6ca0ddcd153c/artifacts
+end_time: 1739633554687
+entry_point_name: ''
+experiment_id: '961045938799776760'
+lifecycle_stage: active
+run_id: 5a15da6776d640cd8aaa6ca0ddcd153c
+run_name: Random Forest
+run_uuid: 5a15da6776d640cd8aaa6ca0ddcd153c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739633538981
+status: 3
+tags: []
+user_id: kenny

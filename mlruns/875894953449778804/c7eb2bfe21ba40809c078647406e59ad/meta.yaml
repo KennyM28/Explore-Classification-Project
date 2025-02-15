@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kenny/Documents/ExploreAI/Group_Project/Explore-Classification-Project/mlruns/875894953449778804/c7eb2bfe21ba40809c078647406e59ad/artifacts
+end_time: 1739633673045
+entry_point_name: ''
+experiment_id: '875894953449778804'
+lifecycle_stage: active
+run_id: c7eb2bfe21ba40809c078647406e59ad
+run_name: CrossVal_Logistic Regression
+run_uuid: c7eb2bfe21ba40809c078647406e59ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739633624435
+status: 3
+tags: []
+user_id: kenny
