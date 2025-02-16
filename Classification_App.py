@@ -92,22 +92,108 @@ with st.sidebar:
 # --Content based on selected option--
 
 if selected_option == "Team Info":
-    st.title("Team Information")
-    st.write("We are a team of data science enthusiasts passionate about leveraging machine learning for real-world applications.")
-    st.write("Team Members:")
-    st.write("- Member 1: [Kennety Mashishi] - [Team lead]")
-    st.write("- Member 2: [Sarah Mahlangu] - [Project Manager]")
-    st.write("- Member 3: [Gabamoitse Keefelakae] - [Data Scientist]")
-    st.write("- Member 3: [Busisiwe Mbewe] - [Data Scientist]")
+    st.markdown("<h1 class='centered-title'>Team Information</h1>", unsafe_allow_html=True)
+
+    # Styling
+    st.markdown("""
+        <style>
+        .centered-title {
+            text-align: center;
+        }
+        .team-members-title {  
+            text-align: center; 
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .team-members-description {
+            text-align: center; 
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .team-member {
+            text-align: center; 
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .role {
+            text-align: center; 
+            font-style: italic;
+            color: #777;
+            margin-left: 20px;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown("<div class='team-info-container'>", unsafe_allow_html=True)
+
+    st.markdown("<div class='team-members-description'>We are a team of data science enthusiasts passionate about leveraging machine learning for real-world applications.</div>", unsafe_allow_html=True) 
+
+    st.markdown("<div class='team-members-title'>Team Members and Roles:</div>", unsafe_allow_html=True) 
+
+    team_members = [
+        {"name": "Kennety Mashishi", "role": "Team Lead"},
+        {"name": "Sarah Mahlangu", "role": "Project Manager"},
+        {"name": "Gabamoitse Keefelakae", "role": "Data Scientist"},
+        {"name": "Busisiwe Mbewe", "role": "Data Scientist"},
+    ]
+
+    for member in team_members:
+        st.markdown(f"<div class='team-member'>{member['name']} <span class='role'>({member['role']})</span></div>", unsafe_allow_html=True)
+
+    st.markdown("</div>", unsafe_allow_html=True)
 
 elif selected_option == "Project Overview":
-    st.title("Project Overview")
-    st.write("This project aims to develop a news article classification system using multiple machine learning models.  The goal is to accurately categorize news articles into predefined categories, providing a valuable tool for information organization, analysis, and retrieval.")
-    st.write("Key Features:")
-    st.write("- Multiple classification models: [Logistic Regression, Decision Tree, Random Forest, Naive Bayes]")
-    st.write("- User-friendly Streamlit interface")
-    st.write("- Real-time prediction on user-inputted articles")
-    st.write("- [Techniques used, NLP pre-processing, Classification Modelling]")
+    st.markdown("<h1 class='centered-title'>Project Overview</h1>", unsafe_allow_html=True)
+
+    # Styling
+    st.markdown("""
+        <style>
+        .centered-title {
+            text-align: center;
+        }
+        .project-overview-container {
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+         .key-features-description {
+            margin-bottom: 5px;
+            list-style-type: none; 
+            margin-left: 20px; 
+            text-align: center;
+        }
+         .key-features-title {  
+            text-align: center; 
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .key-feature {
+            margin-bottom: 5px;
+            list-style-type: none; 
+            margin-left: 20px; 
+            text-align: center;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+ 
+    st.markdown("<div class='key-features-description'>This project aims to develop a news article classification system using multiple machine learning models. The goal is to accurately categorize news articles into predefined categories, providing a valuable tool for information organization, analysis, and retrieval.</div>", unsafe_allow_html=True) 
+
+    st.markdown("<div class='key-features-title'>Key Features:</div>", unsafe_allow_html=True) 
+
+    st.markdown("""
+    <ul class = "key-feature">
+        <li class = "key-feature">Multiple classification models: [Logistic Regression, Decision Tree, Random Forest, Naive Bayes].</li>
+        <li class = "key-feature">User-friendly Streamlit interface.</li>
+        <li class = "key-feature">Real-time prediction on user-inputted articles.</li>
+        <li class = "key-feature">[Techniques used, NLP pre-processing, Classification Modelling].</li>
+    </ul>
+    """, unsafe_allow_html=True)
+
+    st.markdown("</div>", unsafe_allow_html=True)
 
 elif selected_option == "Performance Analysis":
     st.title("Model Performance Analysis")
