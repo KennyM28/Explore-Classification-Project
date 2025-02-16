@@ -1,0 +1,16 @@
+# Exclude everything in venv except essential files
+venv/*
+!venv/Scripts/
+!venv/Lib/
+!venv/pyvenv.cfg
+!venv/pip-selfcheck.json
+
+
+!venv/bin/
+
+# Exclude common virtual environment files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
