@@ -41,8 +41,10 @@ def load_mlflow_models():
             st.error("Column 'params.model' not found in MLflow runs.")
             return None, None
         
+        # Make sure that 'params.model' exists and is of type str
+        runs["params.model"] = runs["params.model"].astype(str)
+
         for model_name in ["Logistic Regression", "Decision Tree", "Random Forest", "Naive Bayes"]:
-            runs["params.model"] = runs["params.model"].astype(str)
             model_runs = runs[runs["params.model"] == model_name]
             if not model_runs.empty:
                 latest_run = model_runs.iloc[0]
