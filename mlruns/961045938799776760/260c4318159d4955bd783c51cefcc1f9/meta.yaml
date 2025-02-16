@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kenny/Documents/ExploreAI/Group_Project/Explore-Classification-Project/mlruns/961045938799776760/260c4318159d4955bd783c51cefcc1f9/artifacts
+end_time: 1739633623453
+entry_point_name: ''
+experiment_id: '961045938799776760'
+lifecycle_stage: active
+run_id: 260c4318159d4955bd783c51cefcc1f9
+run_name: Naive Bayes
+run_uuid: 260c4318159d4955bd783c51cefcc1f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739633617825
+status: 3
+tags: []
+user_id: kenny
