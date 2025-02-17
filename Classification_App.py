@@ -81,13 +81,13 @@ def load_models():
                 "f1_score": 0.978131806199115,
                 "runtime": 4.088213682174683
             },
-            "Decision Tree": {
-                "accuracy": 0.873,
-                "precision": 0.8762745767120285,
-                "recall": 0.873,
-                "f1_score": 0.8735506368567483,
-                "runtime": 5.061999082565308
-            },
+            # "Decision Tree": {
+            #     "accuracy": 0.873,
+            #     "precision": 0.8762745767120285,
+            #     "recall": 0.873,
+            #     "f1_score": 0.8735506368567483,
+            #     "runtime": 5.061999082565308
+            # },
             "Random Forest": {
                 "accuracy": 0.949,
                 "precision": 0.952060134867567,
@@ -106,7 +106,7 @@ def load_models():
 
         model_files = {
             "Logistic Regression": "logistic_regression_pipeline.pkl",
-            "Decision Tree": "decision_tree_pipeline.pkl",
+            # "Decision Tree": "decision_tree_pipeline.pkl",
             "Random Forest": "random_forest_pipeline.pkl",
             "Naive Bayes": "naive_bayes_pipeline.pkl"
         }
