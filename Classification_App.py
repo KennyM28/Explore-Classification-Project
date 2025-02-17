@@ -134,7 +134,7 @@ if selected_option == "Team Info":
     team_members = [
         {"name": "Kennety Mashishi", "role": "Team Lead"},
         {"name": "Sarah Mahlangu", "role": "Project Manager"},
-        {"name": "Gabamoitse Keefelakae", "role": "Data Scientist"},
+        {"name": "Gaba Keefelakae", "role": "Data Scientist"},
         {"name": "Busisiwe Mbewe", "role": "Data Scientist"},
     ]
 
